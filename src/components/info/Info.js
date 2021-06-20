@@ -1,3 +1,5 @@
+// Press kit sections
+
 import React from 'react'
 import { Button } from '../button/Button'
 import { InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap, Img } from './InfoElements'

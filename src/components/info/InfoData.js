@@ -1,3 +1,4 @@
+// Data for press kit sections
 
 import rocket from '../../images/rocket.png';
 import values from '../../images/value.png';

@@ -1,3 +1,5 @@
+// Card for news items in press kit
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 

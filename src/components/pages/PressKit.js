@@ -1,5 +1,6 @@
+// Presskit page
+
 import React, {useState} from 'react'
-import Footer from '../footer/Footer';
 import Info from '../info/Info';
 import { homeObjOne, homeObjTwo, homeObjThree} from '../info/InfoData';
 import News from '../news/News';

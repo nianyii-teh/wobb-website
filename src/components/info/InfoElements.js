@@ -1,3 +1,5 @@
+// Styles for press kit sections
+
 import styled from 'styled-components';
 
 export const InfoContainer = styled.div`

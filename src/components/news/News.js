@@ -1,3 +1,5 @@
+// News section on press kit page
+
 import './News.css';
 import NewsItem from './NewsItem';
 import img6 from '../../images/img-6.jpg';

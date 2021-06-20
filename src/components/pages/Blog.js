@@ -1,3 +1,5 @@
+// Sample blog post page
+
 import React from 'react';
 import '../../App.css';
 import BlogPost from '../blogpost/BlogPost';

@@ -9,6 +9,7 @@ export default function Navbar() {
     const handleClick = () => setClick(!click);
     const closeMobileMenu = () => setClick(false);
 
+    // Hamburger menu
     const showButton = () => {
         if(window.innerWidth <= 960) {
             setButton(false);
@@ -21,6 +22,7 @@ export default function Navbar() {
         showButton();
     }, []);
 
+    // For different size screens
     window.addEventListener('resize', showButton);
 
     return (

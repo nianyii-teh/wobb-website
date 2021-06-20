@@ -1,7 +1,8 @@
+// Main page with list of blog post cards
+
 import React from 'react';
 import '../../App.css';
 import Cards from '../cards/Cards';
-import Footer from '../footer/Footer';
 
 function Home() {
     return (

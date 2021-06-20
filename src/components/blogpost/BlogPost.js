@@ -1,3 +1,5 @@
+// Component for blog post
+
 import React from 'react';
 import './BlogPost.css';
 

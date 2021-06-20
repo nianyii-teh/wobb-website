@@ -1,3 +1,5 @@
+// Top section used in presskit page
+
 import React from 'react';
 import './HeroSection.css';
 import { Button } from '../button/Button';
