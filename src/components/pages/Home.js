@@ -1,15 +1,12 @@
 import React from 'react';
 import '../../App.css';
-import HeroSection from '../HeroSection';
-import Cards from '../Cards';
-import Footer from '../Footer';
+import Cards from '../cards/Cards';
+import Footer from '../footer/Footer';
 
 function Home() {
     return (
         <>
-            <HeroSection />
             <Cards />
-            <Footer />
         </>
     )
 }

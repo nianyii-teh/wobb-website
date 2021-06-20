@@ -1,11 +1,11 @@
 import React from 'react';
-import Navbar from './components/Navbar';
+import Navbar from './components/navbar/Navbar';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import './App.css';
 import Home from './components/pages/Home';
-import Services from './components/pages/Services';
-import Products from './components/pages/Products';
-import SignUp from './components/pages/SignUp';
+import PressKit from './components/pages/PressKit';
+import Blog from './components/pages/Blog';
+import Footer from './components/footer/Footer';
 
 function App() {
     return (
@@ -16,16 +16,16 @@ function App() {
                 <Route path='/' exact component=
                     {Home}
                 />
-                <Route path='/services' exact component=
-                    {Services}
+                <Route path='/presskit' component=
+                    {PressKit}
                 />
-                <Route path='/products' exact component=
-                    {Products}
+                <Route path='/blog' component=
+                    {Blog}
                 />
-                <Route path='/signup' exact component=
-                    {SignUp}
-                />
+
             </Switch>
+            
+            <Footer />
         </Router>
         </>
     );
